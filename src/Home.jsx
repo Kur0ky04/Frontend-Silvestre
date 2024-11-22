@@ -23,7 +23,7 @@ function Home() {
         }}
       >
         <img
-          src="/src/assets/image/Swim.jpg"
+          src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467704919_122169858122101467_3602630091582774873_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGA9dofX5huWD3LydbEnNEXWFWEfSl51e1YVYR9KXnV7dDc7zMUU0EPRPzqJ64KThYTB6KWmQWBZ2FA0dp4qTzu&_nc_ohc=_E-8SoH4KJsQ7kNvgH9vo3l&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AbC4lQq8sAKGZ9YftNFzyWh&oh=00_AYCLXtsK8O5EkMRVplHysWF9AT760D3rlSzJr9jOzjyN0g&oe=67461413"
           alt="Profile"
           style={{
             width: '200px',
@@ -63,7 +63,7 @@ function Home() {
       >
         <a href="https://x.com/JahRoi2" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <img
-            src="/src/assets/image/X.jpeg"
+            src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467979076_122169861554101467_6856939954493914175_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeG4h1OrXUJDnpoyiVzL0HOM2nPW1uE5M3rac9bW4Tkzev8VeuNzpGc7wCBfANy07pJjm5vVEb6Cqgd0rVjWH7U7&_nc_ohc=cN2bl61TXxoQ7kNvgHt2_AS&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AQVxmdZLFAF8unX1_kALzn2&oh=00_AYDQ0jfHIeYWsDTXl8e4DnB9P-jlljyYl_vt-In3y36tzA&oe=67463843"
             alt="Small Profile"
             style={{
               width: '60px',
