@@ -143,7 +143,7 @@ function Education() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467975316_122169859238101467_7468942289871909988_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEffwIGKq57Hxp1I_G8BB4-ZpkMbf7aCIFmmQxt_toIgSQfFzmgVFdrFut7VZYO0txuB9yhB8DMp6yfYOZaOWmZ&_nc_ohc=1MFBJUlCtX8Q7kNvgHG5Bv3&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AvQoxeSsDkoDAIHucTGmEHh&oh=00_AYCHofRofHr2tQLJeqOE6Wto3ZQ52K0co5mirLrpz2uY0w&oe=67463A20"
+                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/372850681_679865907499340_4650653701207131722_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGrffj_d19Tc9v9Bd0v0Q_B9Z1pGvV3yO3USbfp4znzQQ3viq7wnGB_wDlHLaA15D66jxuKbBDf6t6-wyeHwUb1&_nc_ohc=chQOK39f4iA&tn=JQFw6jXwIC9LfAC8&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AsH2eI4xeQ5by9pZonjp2ZY&oh=00_AYAWilM4bqZskDndibFwA7y_GM5KbAH2QUt3zD7u_Rnxr9Q&oe=67465C7C"
                 alt="Highschool Image 3"
                 style={{
                   height: '250px',
@@ -170,8 +170,54 @@ function Education() {
           <h3 style={{ fontSize: '1.7rem', marginBottom: '15px', color: '#f39c12' }}>College</h3>
           <p style={{ fontSize: '1rem', marginBottom: '20px' }}>
             Naga College Foundation<br />
-            Current: 2nd Year BS Computer Studies
+            BS in Computer Science<br />
+            Currently studying
           </p>
+
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/372900022_679865764166021_4163344821527129418_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHcVfYPvTZX8fEK7Xzj7V6vpt6v_FZmTxqzQntqE-uC9F1aaMw0kbsHGJz57R9cHDtzkDA4fPz9AfayMFCr5k05&_nc_ohc=bGcFzQeWqFkQ7kNvgGGjmkk&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=Ac2uhFJ4V82AO5zyryUJbwS&oh=00_AYc-xdzkry02lfpnbpPUlzknhzlG3dDT3eHp1p0AA6jOdQ&oe=67463943"
+                alt="College Image 1"
+                style={{
+                  height: '250px',
+                  objectFit: 'cover',
+                  borderRadius: '10px',
+                }}
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/372896410_679865801832684_2973513780420770224_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeH2HpGc6D7VAv0jGdWcu8wO1dSYyIT2FLX4zJp2hfKBV6Ge2gS_2SvZehfhuw_jMZ2B2XwVwPRfgZc2fvtrRgya&_nc_ohc=PYCG8TqV0HoQ7kNvgMSIuFc&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AdoIhfMPuINHiKqOXe_7Qf0&oh=00_AYJbSXY5qtgqaj9J1_4fH5UOwe2F8y6cfb5n02yb_q4uYg&oe=674634C6"
+                alt="College Image 2"
+                style={{
+                  height: '250px',
+                  objectFit: 'cover',
+                  borderRadius: '10px',
+                }}
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/374123213_679865968499334_7792431253761124667_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeF93WeDNshOQYz3bE8d81m0lgDtgAYcRZJqvZ-LhKftG96rSY6u1k4OVy8Sg-4Hmu5nlXgoa1hDT5Q0RZlHWrT2&_nc_ohc=nm_kx5PRsy8Q7kNvgBDoU8a&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AsW5FzF_ei7FwA2Lz_h0hQK&oh=00_AYZ7G-dD54v0Cdzv-iTUC0-ix-f5XrquAOx4VRwY3GQRVQ&oe=674629D1"
+                alt="College Image 3"
+                style={{
+                  height: '250px',
+                  objectFit: 'cover',
+                  borderRadius: '10px',
+                }}
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     </div>
