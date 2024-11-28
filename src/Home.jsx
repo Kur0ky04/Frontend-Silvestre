@@ -6,7 +6,7 @@ function Home() {
       id="home"
       style={{
         padding: '50px 20px',
-        backgroundColor: '#81D4FA',
+        backgroundColor: 'skyblue',
         width: '100%',
         minHeight: '100vh',
         boxSizing: 'border-box',
@@ -49,7 +49,7 @@ function Home() {
             padding: '0 10px',
           }}
         >
-          Hi! Welcome to my personal website. Feel free to scroll and learn more about me!
+          This is my personal space where I share a glimpse of my life, interests, and passions. Its a cozy and welcoming place that reflects who I am. Feel free to look around and get to know me better!
         </p>
       </div>
 
