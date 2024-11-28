@@ -9,86 +9,57 @@ const images = {
   lol: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467860906_122169857318101467_1186779665228114161_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEo8Q6RRr0Kgw6GqzeoNBz5n6tLCb8zis2fq0sJvzOKzTBUmmN-UudduY75oz53vm7Ilgjt0QO5YcjQYY39-aPm&_nc_ohc=qZPSaLFkDlAQ7kNvgGsbgPu&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AfeFtNSiM6sQR0WTM0KMb7K&oh=00_AYCj3BR9Kq8auf6iqGw7uz3HBXDk4CJTeYgKBZbJDAwODg&oe=67464144',
   mu: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468010892_122169857360101467_7814993080423820341_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGeQMgse6UdiDbV3AdvIF_0vYXBlTOjTUO9hcGVM6NNQytyQIW7N3f8Dd02ioHpJHeQ0CSQaEodD2wtMBIUxLvx&_nc_ohc=mK72YpPIFXYQ7kNvgH_aTLZ&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AhUdTOUohddPCStD2kk0mwC&oh=00_AYBcbHTrojPJQsRU8GT7BBRlEHQDeGAK4sR4RxL-SFrxAQ&oe=67463FEE',
   honor: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467950786_122169857204101467_1305703709595267462_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGE_7D57EZGmQr8iGA8D1IiAdJ_V7quab8B0n9Xuq5pv2W1iWbxW1t2C84-Y68HEM2sXi_PKViOCurVn_UtXsOC&_nc_ohc=aUKabhXdVJ0Q7kNvgFilxbO&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AjL3MMLpaR2Jl37Fih2UZn2&oh=00_AYAx2Qv_DcG9tQs5LtKTQi5MIQokz9WrhDe5PV2AP7FDVw&oe=6746376F',
-  dota: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467897286_122169857210101467_8073536293241075968_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGXj_Dplynfb-rxYEMBfmzir-uN2Lrg2duv643YuuDZ28p3DCiSN4pf3_6_IyM1JQew_z7Sv_RMIc7WgeSKVOaw&_nc_ohc=l49v7I_SMpgQ7kNvgFqJPpK&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AmkGh3_njiGA_jsoVqlDUJd&oh=00_AYAHolx3JWO_68UhG84nJRjSykPKAJFqQyM_YnmEDV6mHA&oe=67462F92',
-  pubg: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467843653_122169857258101467_2867570060954588936_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeFe5Ow2DfxexLqabRPjZ8KzOwbRECbpfSc7BtEQJul9J9kc6DFtFNS625Mszz1I7Rv9pjXup8CYbQibQMm1F9f8&_nc_ohc=sE_JU3HaQhsQ7kNvgFas3Ru&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A5iDZue2dOyKMYmVbLOXiAx&oh=00_AYDYaaPbAEyuAiwV4hYMDVKv-ZUHKDVeYr3sKnDqhWFuLg&oe=67463D7A',
+  dota: 'https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467897286_122169857210101467_8073536293241075968_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGXj_Dplynfb-rxYEMBfmzir-uN2Lrg2duv643YuuDZ28p3DCiSN4pf3_6_IyM1JQew_z7Sv_RMIc7_TpshTAm2&_nc_ohc=skYP_MbbymAQ7kNvgDYwQxO&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AjwCEpzcnXiT6fTnfa8jI9r&oh=00_AYAZf8yBvHyHpOtnxaSu6xaIDFZyCUwJcQw8zXodnng9gA&oe=67462C2B'
 };
 
-function Hobbies() {
+const categories = [
+  { name: 'Cat', image: images.cat },
+  { name: 'Cow', image: images.cow },
+  { name: 'Dog', image: images.dog },
+  { name: 'Bike', image: images.bike },
+  { name: 'Basketball', image: images.basketball },
+  { name: 'LOL', image: images.lol },
+  { name: 'MU', image: images.mu },
+  { name: 'Honor', image: images.honor },
+  { name: 'Dota', image: images.dota }
+];
+
+const CategorySelector = () => {
+  const [selectedCategory, setSelectedCategory] = React.useState('');
+
+  const handleCategoryClick = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
-    <div
-      id="hobbies"
-      style={{
-        padding: '50px',
-        fontFamily: 'Arial, sans-serif',
-        textAlign: 'center',
-        backgroundColor: '#ccccff',
-      }}
-    >
-      <h2 style={{ fontSize: '2rem', color: '#5754ff', marginBottom: '30px' }}>Hobbies</h2>
-
-      <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-        <h3 style={{ fontSize: '1.5rem', marginBottom: '15px' }}>Pets</h3>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '20px',
-            marginBottom: '30px',
-          }}
-        >
-          <HobbyCard image={images.cat} title="Cat" />
-          <HobbyCard image={images.cow} title="Cow" />
-          <HobbyCard image={images.dog} title="Dog" />
-        </div>
-
-        <h3 style={{ fontSize: '1.5rem', marginBottom: '15px' }}>Sports</h3>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '20px',
-            marginBottom: '30px',
-          }}
-        >
-          <HobbyCard image={images.bike} title="Bike" />
-          <HobbyCard image={images.basketball} title="Basketball" />
-        </div>
-
-        <h3 style={{ fontSize: '1.5rem', marginBottom: '15px' }}>Games</h3>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '20px',
-          }}
-        >
-          <HobbyCard image={images.lol} title="League of Legends" />
-          <HobbyCard image={images.mu} title="MU Origin 3" />
-          <HobbyCard image={images.honor} title="Honor of Kings" />
-          <HobbyCard image={images.dota} title="Dota" />
-          <HobbyCard image={images.pubg} title="PUBG" />
-        </div>
+    <div style={{ backgroundColor: 'skyblue', padding: '20px', borderRadius: '8px', maxWidth: '600px', margin: '0 auto', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+      <h2 style={{ textAlign: 'center' }}>Category Selector</h2>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '16px' }}>
+        {categories.map((category) => (
+          <div
+            key={category.name}
+            style={{
+              backgroundColor: 'skyblue',
+              padding: '10px',
+              borderRadius: '8px',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+              textAlign: 'center',
+              cursor: 'pointer'
+            }}
+            onClick={() => handleCategoryClick(category.name)}
+          >
+            <img src={category.image} alt={category.name} style={{ width: '100%', height: 'auto', borderRadius: '8px' }} />
+            <h3>{category.name}</h3>
+          </div>
+        ))}
       </div>
+      {selectedCategory && (
+        <div style={{ marginTop: '20px', textAlign: 'center' }}>
+          <h3>You selected: {selectedCategory}</h3>
+        </div>
+      )}
     </div>
   );
-}
+};
 
-function HobbyCard({ image, title }) {
-  return (
-    <div>
-      <img
-        src={image}
-        alt={title}
-        style={{
-          width: '100px',
-          height: '100px',
-          objectFit: 'cover',
-          border: '3px solid #5754ff',
-        }}
-      />
-      <p style={{ marginTop: '10px', fontSize: '1rem', color: '#333' }}>{title}</p>
-    </div>
-  );
-}
-
-export default Hobbies;
+export default CategorySelector;
