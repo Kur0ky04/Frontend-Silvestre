@@ -7,7 +7,7 @@ function Education() {
       id="education"
       style={{
         padding: '50px',
-        backgroundColor: '#2E3B55',
+        backgroundColor: 'skyblue',
         fontFamily: 'Arial, sans-serif',
         color: '#fff',
       }}
@@ -143,7 +143,7 @@ function Education() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467962289_122169859262101467_4829203240449952379_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGJOkP0nCgpJCTnn6ZYrs8Tx6Yb0o9ZuADHphvSj1m4APavPMYCQaSlx60zYN2Pj7s0M7KzS5RzlarR9JmTKghz&_nc_ohc=Q1nl3N6MAy0Q7kNvgGcp_mw&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=ALe9lnRvlyCLLVXgy1Gbm4u&oh=00_AYBcHyQCDh0s56wI0FXBEZ0I8mf9o3BIqM3xg32T6UZTGQ&oe=67461B6F"
+                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467975316_122169859238101467_7468942289871909988_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEffwIGKq57Hxp1I_G8BB4-ZpkMbf7aCIFmmQxt_toIgSQfFzmgVFdrFut7VZYO0txuB9yhB8DMp6yfYOZaOWmZ&_nc_ohc=1MFBJUlCtX8Q7kNvgHG5Bv3&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AvQoxeSsDkoDAIHucTGmEHh&oh=00_AYCHofRofHr2tQLJeqOE6Wto3ZQ52K0co5mirLrpz2uY0w&oe=67463A20"
                 alt="Highschool Image 3"
                 style={{
                   height: '250px',
@@ -169,54 +169,9 @@ function Education() {
         >
           <h3 style={{ fontSize: '1.7rem', marginBottom: '15px', color: '#f39c12' }}>College</h3>
           <p style={{ fontSize: '1rem', marginBottom: '20px' }}>
-            Naga College Foundation Inc.<br />
-            Graduation: (Soon!)
+            Naga College Foundation<br />
+            Current: 2nd Year BS Computer Studies
           </p>
-
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t1.15752-9/462542856_543212241900376_9096596393250128789_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE-wwQUAXe6uGYAAFcoPj9O0lBzpargOBTSUHOlquA4FAhZQD-RDw6CuEP4bWL59b4hwVNrpX4cNNiRM8eORdwD&_nc_ohc=kgqI-98DCekQ7kNvgG7ZQax&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&oh=03_Q7cD1QH-tHFi31SjCWfSWaRdnt0Uba8uz761Sj8Xo7wzEGthnw&oe=6767B4AD"
-                alt="College Image 1"
-                style={{
-                  height: '250px',
-                  objectFit: 'cover',
-                  borderRadius: '10px',
-                }}
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467932787_122169857774101467_4371047973175705031_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHM_MpPvNLzT8rAWSwmwVHe82BGNfHvxzPzYEY18e_HM2uP6qLzSTVJjog8exVprabB-Wwkh1FcEQzqPwfbWz8d&_nc_ohc=mvqSGqrcqVoQ7kNvgH-Xpr-&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AMsnuhf-HQvoKFRG5OeQbCr&oh=00_AYATiHqoDyI5pEMbMoorPbUQzBTTfp6nYMuVGQ48zJtyCw&oe=67461DF9"
-                alt="College Image 2"
-                style={{
-                  height: '250px',
-                  objectFit: 'cover',
-                  borderRadius: '10px',
-                }}
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468004069_122169857702101467_3587459519834754931_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHMMVtdNjSEBBadiW5ku-1vN3lseTyP9YQ3eWx5PI_1hBnaJuRZG764fXUB9jQ2IVX3U8PVMGymH-uN88K1zYxR&_nc_ohc=O2iTPJJeIW4Q7kNvgEqMXP1&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=ACPX1JQ1tweCMeTlo_Kpg3w&oh=00_AYDRzgFVu1liStzNa23SkrElEHTtQDcK7irLuY4U6FkzDg&oe=67461B60"
-                alt="College Image 3"
-                style={{
-                  height: '250px',
-                  objectFit: 'cover',
-                  borderRadius: '10px',
-                }}
-              />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
         </div>
       </div>
     </div>
