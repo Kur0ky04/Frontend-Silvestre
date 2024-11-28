@@ -38,7 +38,7 @@ function Contact() {
   return (
     <div
       style={{
-        background: 'linear-gradient(135deg, #133337, #1b483e)',
+        backgroundColor: 'skyblue',
         color: 'white',
         padding: '50px 20px',
         minHeight: '100vh',
