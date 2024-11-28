@@ -6,7 +6,7 @@ function Home() {
       id="about"
       style={{
         padding: '50px 20px',
-        backgroundColor: '#f5f5dc',
+        backgroundColor: 'skyblue',
         width: '100%',
         minHeight: '100vh',
         boxSizing: 'border-box',
@@ -55,7 +55,7 @@ function Home() {
           crossroads of technology and innovation, with a particular focus on emerging trends like Artificial
           Intelligence (AI), Edge Computing, and Neuromorphic Computing. Outside of academics, I enjoy engaging in
           creative hobbies and taking care of my growing corn crops, which reflect my appreciation for nature and
-          hands-on work. I’m also exploring tools like GitHub and Render to enhance my development skills. Fluent in
+          hands-on work. Im also exploring tools like GitHub and Render to enhance my development skills. Fluent in
           Rinconada Bikol, I take pride in my cultural roots and hope to integrate my diverse interests into
           meaningful projects that make a difference.
         </p>
